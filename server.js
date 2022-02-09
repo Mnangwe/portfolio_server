@@ -6,7 +6,7 @@ const cors = require('cors')
 
 app.use(cors())
 
-app.set('port', process.env.port || 3000) 
+app.set('port', process.env.PORT || 3400) 
 app.use(bodyparser.json());
 // Root Path
 app.get('/', (req, res, next) =>{
