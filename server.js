@@ -6,7 +6,7 @@ const cors = require('cors')
 
 app.use(cors())
 
-app.set('port', process.env.PORT || 3400) 
+app.set('port', process.env.PORT || 3000) 
 app.use(bodyparser.json());
 // Root Path
 app.get('/', (req, res, next) =>{
@@ -19,7 +19,7 @@ app.get('/projects', (req, res, next) =>{
     let projects = [
         {
           id:1,
-          image:"./images/projects/reaction-timer.jpg",
+          image:"https://i.postimg.cc/Y268bscZ/reaction-timer.jpg",
           title: "Reaction Timer",
           gitHub: "https://github.com/Mnangwe/Reaction_timer",
           netlify: "https://reaction-time-aza.netlify.app",
@@ -27,7 +27,7 @@ app.get('/projects', (req, res, next) =>{
         },
         {
           id:2,
-          image:"./images/projects/calculator.jpg",
+          image:"https://i.postimg.cc/c4WkWNMd/calculator.jpg",
           title: "Calculator",
           gitHub: "https://github.com/Mnangwe/JS_Calculator",
           netlify: "https://aza-calculator-pupuma.netlify.app",
@@ -35,7 +35,7 @@ app.get('/projects', (req, res, next) =>{
         },
         {
           id:3,
-          image:"./images/projects/book-ecommerce.jpg",
+          image:"https://i.postimg.cc/T37tn58P/book-ecommerce.jpg",
           title: "Book Store",
           gitHub: "https://github.com/Mnangwe/Book_Store",
           netlify: "https://book-e-commerce.netlify.app",
@@ -43,7 +43,7 @@ app.get('/projects', (req, res, next) =>{
         },
         {
           id:4,
-          image:"./images/projects/project1.jpg",
+          image:"https://i.postimg.cc/wvKckhw9/project1.jpg",
           title: "Random User Search",
           gitHub: "https://github.com/Mnangwe/Vue_CDN-RandomUser",
           netlify: "https://random-user-fetch-api.netlify.app",
@@ -51,7 +51,7 @@ app.get('/projects', (req, res, next) =>{
         },
         {
           id:5,
-          image:"./images/projects/stopwatch.jpg",
+          image:"https://i.postimg.cc/BbThFhsW/stopwatch.jpg",
           title: "Stopwatch",
           gitHub: "https://github.com/Mnangwe/stopwatch-freeCodeCamp",
           netlify: "https://azabenathi-stopwatch.netlify.app/",
@@ -59,7 +59,7 @@ app.get('/projects', (req, res, next) =>{
         },
         {
           id:6,
-          image:"./images/projects/ageTempCalculator.jpg",
+          image:"https://i.postimg.cc/GptSfJPY/age-Temp-Calculator.jpg",
           title: "Age & Temperature calculator",
           gitHub: "https://github.com/Mnangwe/age-temp-calculator",
           netlify: "https://aza-age-temp.netlify.app/",
@@ -83,7 +83,7 @@ app.get('/testimonials', (req, res, next) =>{
                  the extra mile to completing beyond what is required 
                  by him. He will assist his peers when they are struggling 
                  and wants to demonstrate what he has just learnt.`,
-        image:"./images/portfolio/Alex.jpg"
+        image:"https://i.postimg.cc/XJNtn60Z/Alex.jpg"
     },
     {
         id:2,
@@ -94,7 +94,7 @@ app.get('/testimonials', (req, res, next) =>{
                 extremely well in teams and transforms into a natural leader. 
                 Azabenathi is well on his way to becoming a great developer.`,
         title:"Lecturer",
-        image:"./images/portfolio/Json.jpg"
+        image:"https://i.postimg.cc/MZvr5DZ8/Json.jpg"
     },
     {
         id:3,
@@ -106,7 +106,7 @@ app.get('/testimonials', (req, res, next) =>{
                  to detail is exceptional. Azabenathi is one of our finest and most well-rounded 
                  student at Lifechoices Academy.`,
         title:"Head of Curriculum & Learning",
-        image:"./images/portfolio/godwin-2022.jpg"
+        image:"https://i.postimg.cc/7Z7NJJZ0/godwin-2022.jpg"
     },
     {   id:4,
         fname: "Nomvuyiseko Mpofu",
@@ -116,7 +116,7 @@ app.get('/testimonials', (req, res, next) =>{
                  His work ethic is impressive and he always goes out of his way to help 
                  others. I love his working style, he is driven and dedicated.`,
         title:"Collegue & Front-end Developer",
-        image:"./images/portfolio/Nomvuyiseko.jpg"
+        image:"https://i.postimg.cc/HxBDMst4/Nomvuyiseko.jpg"
     },
     {
         id:5,
@@ -126,7 +126,7 @@ app.get('/testimonials', (req, res, next) =>{
                  always eager to expand his knowledge. He likes helping people 
                  and he is a great leader as well.`,
         title:"Collegue & Full-stack Developer",
-        image:"./images/portfolio/Kagiso.jpg"
+        image:"https://i.postimg.cc/nzvMf7pV/Kagiso.jpg"
     },
 ]
 
