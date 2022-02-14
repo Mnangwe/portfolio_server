@@ -37,7 +37,7 @@ router.post('/', (req, res) => {
           res.status(404).send('Email cannot be sent')
         } else {
           console.log('Email sent: ' + info.response);
-          res.send({msg:'Message sent successfully'})
+          res.send({msg:'Message sent successfully!'})
         }
       });
 })
