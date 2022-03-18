@@ -50,6 +50,14 @@ let projects = [
       netlify: "https://aza-age-temp.netlify.app/",
       description:`Work in progress. JavaScript project to calculator the age using current time and converting temperature from Celsius to Fahrenheit`
     },
+    {
+      id:7,
+      image:"https://i.postimg.cc/rppy4CBy/2048-clone.jpg",
+      title: "2048 Clone",
+      gitHub: "https://github.com/Mnangwe/2048_clone",
+      netlify: "https://2048-aza-clone.netlify.app/",
+      description:`An intermidiate project. It is a game that works in a powers of 2, it is played by moving left &#8592;, up &#8593;, right &#8594;, down &#8595;`
+    },
   ]
 
 function fixArrayID(arr){
