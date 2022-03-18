@@ -58,6 +58,14 @@ let projects = [
       netlify: "https://2048-aza-clone.netlify.app/",
       description:`An intermidiate project. It is a game that works in a powers of 2, it is played by moving left &#8592;, up &#8593;, right &#8594;, down &#8595;`
     },
+    {
+      id:8,
+      image:"https://i.postimg.cc/7YFqBJ5D/generic-blog.jpg",
+      title: "Generic Blog",
+      gitHub: "https://github.com/Mnangwe/Blog_MongoDB",
+      netlify: "https://generic-blog-vue.netlify.app/",
+      description:`A generic blog that allows a user to register, login and post a blog about anything. W. I. P`
+    },
   ]
 
 function fixArrayID(arr){
