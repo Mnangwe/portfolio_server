@@ -31,7 +31,7 @@ let projects = [
       image:"https://i.postimg.cc/wvKckhw9/project1.jpg",
       title: "Random project Search",
       gitHub: "https://github.com/Mnangwe/Vue_CDN-Randomproject",
-      netlify: "https://random-project-fetch-api.netlify.app",
+      netlify: "https://random-user-fetch-api.netlify.app/",
       description:`Vue CDN using fetch function to fetch data of a random project on an API.`
     },
     {
