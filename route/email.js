@@ -5,12 +5,11 @@ const nodemailer = require('nodemailer')
 
 router.get('/', (req, res) => {
     res.send("This is your email content")
-    
-})  
+
+})
 
 router.post('/', (req, res) => {
     const {fname, email, company, message, subject} = req.body
-    console.log(process.env.USER)
     let transporter = nodemailer.createTransport({
         service: 'gmail',
         host: 'smtp.gmail.com',
