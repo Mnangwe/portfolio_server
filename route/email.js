@@ -27,6 +27,7 @@ router.post('/', (req, res) => {
         subject: subject,
         text: `Hi I am ${fname}, from ${company}:
         \n${message}
+        \nKind Ragards,\n${fname}\n${email}
         `
       };
       
