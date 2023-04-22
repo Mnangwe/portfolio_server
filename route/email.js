@@ -30,7 +30,6 @@ router.post('/', (req, res) => {
         \nKind Ragards,\n${fname}\n${email}
         `
       };
-      
       transporter.sendMail(mailOptions,(error, info) =>{
         if (error) {
           console.log(error);
